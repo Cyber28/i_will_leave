@@ -1,0 +1,18 @@
+{
+  "name": "i_will_leave",
+  "version": "1.0.0",
+  "description": "A Discord bot that will leave",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyber28/i_will_leave.git"
+  },
+  "author": "Cyber28",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
