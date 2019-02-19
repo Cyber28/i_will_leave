@@ -2,7 +2,7 @@ const auth = require('./auth.json')
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
-function leave(guild){
+const leave = (guild) => {
     guild.leave().then(g => {
         console.log(`Left guild: ${g}`)
     })
